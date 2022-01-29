@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# Basic Sample Hardhat Project to launch ICO
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/deploy.js
-npx hardhat help
-```
+https://user-images.githubusercontent.com/6494720/151654945-8eed2713-febf-4493-89e7-30d8a15ce892.mov
+
+
+
+Steps to run locally
+
+Start the hardhat blockchain with single node: npx hardhat node
+Deploy contract to above hardhat node/blockchain: npx hardhat run scripts/deploy.js --network localhost
+Render the react project: npm start
+Profit !!!
